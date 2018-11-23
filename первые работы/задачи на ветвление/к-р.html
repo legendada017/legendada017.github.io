@@ -1,0 +1,38 @@
+<meta charset = "utf-8">
+<script>
+	
+	var ch1 = +prompt("vvedite pervoe chislo");
+	var ch2 = +prompt("vvedite vtoroe chislo");
+	
+	var operaciya = +prompt("vvedite arifmeticheskuyu operaciyu:/n 1 = +; 2 = -; 3 = *; 4 = /");
+	
+	var result;
+
+	if(operaciya == 1){
+		result = ch1 + ch2;
+		alert("summa chisel = " + result); 
+	}
+	
+	else{
+		if(operaciya == 2)
+		{
+			result = ch1 - ch2;
+			alert("raznitsa chisel = " + result);
+		}
+	
+		else{
+			if(operaciya == 3)
+			{
+			result = ch1 * ch2;
+			alert("resultat umnogenia chisel = " + result);
+			}
+			else{
+				if(operaciya == 4)
+				{
+				result = ch1 / ch2;
+				alert("resultat delenia chisel = " + result);
+				}
+			}
+		}
+	}
+</script>>
